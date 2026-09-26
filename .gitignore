@@ -1,0 +1,36 @@
+# Dependencies and Python bytecode
+node_modules/
+/.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build outputs
+/dist/
+/apps/*/dist/
+*.tsbuildinfo
+
+# Temporary files, caches, and logs
+/.tmp/
+*.log
+
+# Local environment settings (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Locally installed editor
+/tools/Live2D Cubism 4.0/
+
+# Local artwork and planning, outside the current MCP demo release
+/art/
+/assets/
+/docs/
+/DESIGN.md
+/tests/art/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
